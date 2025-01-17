@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "atmcmod",
+	"version": "${version}",
+	"name": "atmcmod",
+	"description": "Expanding dimensions",
+	"authors": [
+		"SpionJam",
+		"Apocalypto_Torte",
+		"Jokestar",
+		"Vykos"
+	],
+	"contact": {
+		"homepage": "https://spionjam.github.io/ATMC-Website/index.html",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/atmcmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.atmcteam.atmcmod.ATMCMod"
+		],
+		"fabric-datagen": [
+			"net.atmcteam.atmcmod.ATMCModDataGenerator"
+		],
+		"client": [
+			"net.atmcteam.atmcmod.ATMCModClient"
+		]
+	},
+	"mixins": [
+		"atmcmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
