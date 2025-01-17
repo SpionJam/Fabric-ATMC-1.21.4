@@ -1,5 +1,6 @@
 package net.atmcteam.atmcmod;
 
+import net.atmcteam.atmcmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class ATMCMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
