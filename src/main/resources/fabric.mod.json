@@ -12,7 +12,7 @@
 	],
 	"contact": {
 		"homepage": "https://spionjam.github.io/ATMC-Website/index.html",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/SpionJam/Fabric-ATMC-1.21.4"
 	},
 	"license": "MIT",
 	"icon": "assets/atmcmod/icon.png",
